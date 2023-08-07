@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd server && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "prettier": "^3.0.2",
+    "prettier-plugin-svelte": "^3.0.3"
+  }
+}
